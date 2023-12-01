@@ -1,4 +1,5 @@
 # rl_project
+## 大家在自己的branch上做就好(應該不用merge)
 ## init
 ```sh
 git init
