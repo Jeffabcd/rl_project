@@ -3,6 +3,7 @@ from envs import *
 from stable_baselines3 import PPO
 import cv2
 from tqdm import tqdm, trange
+
 def make_gif(agent, file_path):
         env = create_vec_env()
         env.venv.envs[0].game.set_seed(0)
